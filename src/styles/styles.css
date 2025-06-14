@@ -1,0 +1,151 @@
+/* Header Row 1 */
+.header-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e1bd98;
+    font-family: "Arial";
+    font-weight: bolder;
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+nav span {
+    padding: 20px;
+}
+
+aside span {
+    padding: 5px;
+}
+
+.brand-container span {
+    margin-left: 5px;
+}
+
+/* Header Row 2 */
+.header-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e7b88a;
+    font-family: "Arial";
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.brand-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.short-cut-icons span {
+    padding: 5px;
+}
+
+/* Highlight Bar */
+article {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 5px;
+    color: white;
+}
+
+.bi-lightning-fill {
+    color: gold;
+}
+
+/* Fashion Cards Base */
+.women-fashion,
+.men-fashion,
+.kids-fashion {
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0.6;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Background Images */
+.women-fashion {
+    background-image: url("../../public/images/women-fashion.jpg");
+}
+
+.men-fashion {
+    background-image: url("../../public/images/men-fashion.jpg");
+}
+
+.kids-fashion {
+        background-image: url("../../public/images/Kids-fashion.jpg");
+}
+
+/* Layout Container */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+/* Title and Button */
+.main-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(169, 169, 169);
+}
+
+.btn-main {
+    background-color: white;
+    padding: 15px;
+    font-family: Arial;
+    width: 125px;
+    text-align: center;
+}
+
+.btn-main-women {
+    background-color: white;
+    width: 125px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial;
+    
+}
+
+.btn-main:hover,
+.btn-main-women:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Hover Effects */
+.women-fashion:hover,
+.men-fashion:hover,
+.kids-fashion:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Layout Support */
+section {
+    height: 600px;
+}
