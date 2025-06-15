@@ -56,9 +56,9 @@ article {
     color: white;
 }
 
-.bi-lightning-fill {
-    color: gold;
-}
+    .bi-lightning-fill {
+            color: gold;
+        }
 
 /* Fashion Cards Base */
 .women-fashion,
@@ -101,7 +101,7 @@ main {
     margin: 15px;
 }
 
-/* Title and Button */
+/* Title and Button (Wpmen, Men, Kids*/ 
 .main-title {
     font-size: 50px;
     font-weight: bold;
@@ -124,7 +124,7 @@ main {
     padding: 15px;
     text-align: center;
     font-family: Arial;
-    
+    text-align: center;
 }
 
 .btn-main:hover,
@@ -147,5 +147,7 @@ main {
 
 /* Layout Support */
 section {
-    height: 600px;
+    height: 700px;
 }
+
+/* Footer */
