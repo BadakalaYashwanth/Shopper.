@@ -10,6 +10,7 @@
     font-weight: bolder;
     margin-left: 6px;
     margin-right: 5px;
+    margin-top: 2px; 
 }
 
 nav span {
@@ -149,5 +150,81 @@ main {
 section {
     height: 700px;
 }
+footer {
+    padding: 30px 20px;
+    margin: 10px 6px 0 6px;
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    min-height: 220px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
 
-/* Footer */
+.footer-row-1 {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+}
+
+.email {
+    flex: 1 1 250px;
+    max-width: 350px;
+    border: 1px solid #444;
+    padding: 14px 18px;
+    color: white;
+    border-radius: 8px;
+    background-color: #232323;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.email:focus {
+    border: 1.5px solid #e1bd98;
+    background-color: #282828;
+}
+
+.subscribe {
+    background-color: #e1bd98;
+    color: #181818;
+    border: none;
+    width: 120px;
+    padding: 14px 0;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.subscribe:hover {
+    background-color: #e7b88a;
+    color: #181818;
+    transform: translateY(-2px) scale(1.04);
+}
